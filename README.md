@@ -14,7 +14,8 @@ _**[Lanqing Guo*](https://github.com/YingqingHe), [Yingqing He*](https://github.
 </div>
 
 ## 🥳 Demo
-<p align="center"> <img src="docs/video_res/2048/0194_rank1-seed124.mp4" width="700px"> </p>
+<p align="center"> 
+<img src="assets/video_demo.gif" width="700px"> </p>
 
 Please check more demo videos at the [project page](https://guolanqing.github.io/Self-Cascade/).
 
