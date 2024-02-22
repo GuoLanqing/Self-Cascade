@@ -5,7 +5,7 @@
  <a href='https://arxiv.org/abs/2402.10491'><img src='https://img.shields.io/badge/ArXiv-2305.18247-red'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://guolanqing.github.io/Self-Cascade/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> 
   
 
-_**[Lanqing Guo*](https://github.com/YingqingHe), [Yingqing He*](https://github.com/YingqingHe), Haoxin Chen, [Menghan Xia]((https://menghanxia.github.io/)), [Xiaodong Cun](http://vinthony.github.io/), [Yufei Wang](https://wyf0912.github.io), [Siyu Huang](https://siyuhuang.github.io),<br> 
+_**[Lanqing Guo*](https://github.com/GuoLanqing), [Yingqing He*](https://github.com/YingqingHe), Haoxin Chen, [Menghan Xia]((https://menghanxia.github.io/)), [Xiaodong Cun](http://vinthony.github.io/), [Yufei Wang](https://wyf0912.github.io), [Siyu Huang](https://siyuhuang.github.io),<br> 
 [Yong Zhang<sup>#](https://yzhang2016.github.io), [Xintao Wang](https://xinntao.github.io/), [Qifeng Chen](https://cqf.io/), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ) and [Bihan Wen<sup>#](https://personal.ntu.edu.sg/bihan.wen/)**_
 
 
