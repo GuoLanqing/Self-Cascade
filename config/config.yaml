@@ -1,0 +1,21 @@
+
+
+pretrained_model_name_or_path: "stabilityai/stable-diffusion-xl-base-1.0"
+image_encoder_path: "/home/xinrui/projects/SelfCascade/SDXL/ip_adapter/models/"
+data_json_file: "/home/xinrui/projects/SelfCascade/SDXL/dataset/ScaleCrafter/resized-images.json"
+data_root_path: "/home/xinrui/projects/SelfCascade/SDXL/dataset/ScaleCrafter/resized_images"
+mixed_precision: "fp16"
+
+# train
+gpu_ids: [0,1,2,3]
+resolution: 2048
+train_batch_size: 1
+#resume_checkpoint_path: "/home/xinrui/projects/SelfCascade/SDXL/results/sdxl_selfcascade/pesudo_v3_scalefactor/checkpoint-step=2500.ckpt"
+resume_checkpoint_path: "/home/xinrui/hdd1/xinrui/SelfCascade/results/pexels_txtilm7b_resized_v2_finetune+1k/last.ckpt"
+dataloader_num_workers: 8
+learning_rate: 5.0e-5
+weight_decay: 0.01
+output_dir: "/home/xinrui/hdd1/xinrui/SelfCascade/results/pexels_txtilm7b_resized_v2_finetune+1k/"
+max_steps: 12000
+save_n_steps: 500
+#num_train_epochs: 100
