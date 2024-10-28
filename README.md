@@ -42,13 +42,20 @@ This repository is tested on
 
 ### Text-to-image higher-resolution generation with diffusers script
 ### stable-diffusion xl v1.0 base 
+
+For the tuning version, the pretrained model can be found in this link: https://huggingface.co/NothingSpecialSiri/SelfCascade-SDXL/tree/main
+
+
 ```bash
 # 2048x2048 (4x) generation
-python3 sdxl_inference.py \
---validation_prompt "a professional photograph of an astronaut riding a horse" \
---seed 23 \
---mode tuning
+python sdxl_inference_1000.py 
+--trained_checkpoint_path \path\to\upsampler_only.pth 
+--prompt_folder \path\to\captions 
+--output_folder \path\to\output 
+--file_list_path \path\to\test file names
 ```
+
+
 
 
 ## 💫 Tuning
