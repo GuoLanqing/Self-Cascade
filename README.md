@@ -56,13 +56,6 @@ python sdxl_inference_1000.py
 ```
 
 
-
-
-## 💫 Tuning
-
-
-
-
 ## 😉 Citation
 ```bib
 @article{guo2024make,
