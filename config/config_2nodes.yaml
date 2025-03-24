@@ -1,0 +1,29 @@
+subproject_name: "deconv"
+run_name: "v24_4x_KernelSize3_fsdp_accu4"
+base_results_dir: "/scratch/10320/lanqing001/xinrui/SelfCascade-SDXL/results"
+
+# path
+pretrained_model_name_or_path: "stabilityai/stable-diffusion-xl-base-1.0"
+#image_encoder_path: "/home/xinrui/projects/SelfCascade/SelfCascade-SDXL/ip_adapter/models/"
+data_json_file: "/scratch/10320/lanqing001/xinrui/SelfCascade-SDXL/dataset/pexels-photos-janpf/dataset-new.json"
+data_root_path: "/scratch/10320/lanqing001/xinrui/SelfCascade-SDXL/dataset/pexels-photos-janpf/"
+mixed_precision: "fp16"
+strategy: "fsdp"
+upsample_lr_fea: "deconv"
+use_ema: True
+
+# train
+#gpu_ids: [0]
+resolution: 4096
+train_batch_size: 2
+pretrained_2x_path:
+resume_checkpoint_path:
+#resume_checkpoint_path: "/scratch/10320/lanqing001/xinrui/SelfCascade-SDXL/results/v19_deconv_upsampler_5e-5/checkpoint-step=4000.ckpt"
+#resume_checkpoint_path: "/home/xinrui/hdd1/xinrui/SelfCascade/results/pexels_txtilm7b_resized_v2_finetune+1k/last.ckpt"
+dataloader_num_workers: 8
+learning_rate: 5.0e-6
+weight_decay: 0.01
+max_steps: 4000
+save_n_steps: 1000
+num_nodes: 4
+gradient_accumulation_steps: 2
